@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§a§lMr Azmat Gaming Bot Player Fake V3",
+		"description": "Usage: §b/function spawnMr",
+		"min_engine_version": [1,19,51],
+		"uuid": "8d8d064b-f03c-6b2a-bf2e-1885caeaf13d",
+		"version": [2, 0, 1]
+	},
+	"modules": [
+		{
+			"description": "§bMr Azmat §rBOT Fake Players",
+			"type": "data",
+			"uuid": "5c72e81c-55ac-549f-8c10-696114cc7c81",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Gametest Module",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "a37dd599-9bc7-8b15-bcfa-89b645c5c439",
+			"entry": "scripts/api/Keep.js",
+			"version": [2, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.18.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		}
+	],
+	"metadata": {
+	  "authors": ["Mr Azmat"],
+	  "license": "MIT",
+	  "url": "https://youtube.com/@mr-azmat-gaming?si=NSrB8acvUHi2_9qY"
+	}
+  }
